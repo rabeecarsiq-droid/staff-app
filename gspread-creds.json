@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "keen-philosophy-477712-d6",
+  "private_key_id": "e6bd732f668f9071daa411243f81ac3e077e1ac9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCmAQJsMdxC88OT\nP+uiKKkkSss4bBqMa1ciabL3QYlHm58ONMSX8LJ7ZqyL4P7J+qaK5nL86q+Ce7BH\n5xP8HAc4ZKX21sk9M58arGD3OQM+4MpLBwofowv56dE+umFLVViXPEoKw37x805e\n3liTkOTvVtrH3a+zNlr33QRywaRouxd1k3fsc++qpTFbbyDWTYlLvK+ChDJKywgB\nWrWH/tG3V7D3UTqBT100VKFzox0lCU8s2Kp2St8k8yKmrw/F3VwBeYN9EhOXX/nK\nkpZNQLrh3JKZGQ9DWGVrRmYMqGnofcA26j4vrk075p/Gul/KiloXwwSiP4VMwhq/\n9FTQdDc1AgMBAAECggEAQ+HyyyqifxBuf/bqFQAalpgtPQ/b1WMJmS1u/TQj/o/R\nPX5vjBBl9Bda5MJnflHMq80r5WfUyH9q6SRB5FzTyQhDY8qWNTw4SjCGYGJEhQBo\nSMECr0g92/70zXlq0uL+HK4POxKRhUAw4pN61jEwpPy373YkZJ0MGwKa0JCF+jsp\n4lhUTqjByCmVR7O4SeKtUs5X8xzoskHsNm4sz42b6bvSiWv17MnaigGovQagr+6d\n7JvghKQAhe5eVBeLetmVBI6hKSE+uzgJd2RsyHaUI7sJwsby1cTPXn6sCWlMOMd/\nWbEBTXHjzcZfxaTf4Z4VRCGHAm0R4FORyDwiorIgCwKBgQDmydD/T0f1on2ElF2b\n+ZuyNz2nz/5U/nDVYhnmItmyK2l6o3QkBmwNlwUr3ZrEJ4s4eXMCQmiVmy2h4ikS\nS2CMKHdvoLLc5iDm/thZJxL93AavG3Q4MhqtLl00aG0tPHn+893nXHuo6liWmapn\nyOI/X8ZyIg73u39QnXAgJptffwKBgQC4I3HSyyz01NJTGgClDX+RjY6i4ucIkHgw\nFlqQ4Is9J+P9EW0040TxcETTPHc0xsOKeBj7vQcdcxrKDd9ypkBYq5+IY2apPFnT\n9e+WYlTg3/VeY6Fz5F87pwOVCJwaHYYhPidqYRek9P63OIw585/fDWCs7FTx36Jc\nSK3bAY9DSwKBgQDkQLvslku0O+XqJxbB+cesJghbnVGMXC3aTPESdGtcVKU4vspS\nCuv5MODTdpPn5rhBvZQqquVm+ZfTIKvART6SwD8H7yaXZR8rducgnY2h92fA7eUu\n4xcRKubRu2onMEX0CtrwRL6k3EmLgSVRChQB28aYAOlOyGjtoRhRI/3NHwKBgBjI\nxIg/ypRFlO2UgWO11mbL69fmvHv9nf+y8ouvfW5E0T39u3oz4NKybsET0WOsISOh\nGJPBlJSVKpTpmxq+X8jPiNB9uJKsydZqss3F/HCsFEWZGWEU6vCHgUbs+r3VHXmZ\n+QoreVg9lY8psE4YiXsnPMzpnmFT3XGYYrYolpTTAoGAOG8Q9OQOOHtgNvELNYZd\nKKM+ISn0ydilbjKBXC1GdKb3idlZ0BlassNiODinsvIBCfajCl5UtInMK4pJq4Oq\nvnTA/CdZdD1zVEWiKTj6si48nk+ouXZuCgPaHsUWXj2MqitJLVUu23KB7GOpqX+e\nhZBGVn2NK8D836vcPrzqg4A=\n-----END PRIVATE KEY-----\n",
+  "client_email": "staff-app-momin@keen-philosophy-477712-d6.iam.gserviceaccount.com",
+  "client_id": "117813414309351739457",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/staff-app-momin%40keen-philosophy-477712-d6.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
