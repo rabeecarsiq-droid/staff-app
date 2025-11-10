@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pygsheets
+import json
 from datetime import datetime, date
 import os
 from dotenv import load_dotenv
@@ -17,10 +18,20 @@ EMAIL_PASS = os.getenv("EMAIL_PASS")      # password or app password
 ADMIN_EMAIL = os.getenv("ADMIN_EMAIL")    # البريد الإداري للتلقي
 
 # ---------------- إعداد Google Sheets ----------------
-# لازم يكون عندك ملف JSON للخدمة باسم gspread-creds.json في نفس المجلد
-CREDS_FILE = "gspread-creds.json"
-GC = None
-SHEET_NAME = "StaffApp"  # اسم ملف Google Sheets (يجب أنشاؤه في Drive)
+# ----- تعديل هنا: قراءة Secret بدل الملف المحلي -----
+SHEET_NAME="StaffApp"
+sa_info = json.loads(st.secrets["GCP_SA_JSON"])
+scopes = [
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive"
+]
+GC = pygsheets.authorize(service_account_info=sa_info, scopes=scopes)
+
+try:
+    sh = GC.open(SHEET_NAME)
+except Exception as e:
+    st.error(f"مشكلة بفتح الملف '{SHEET_NAME}'. تأكد الملف موجود ومشارك مع service account. خطأ: {e}")
+st.stop()
 
 def init_gsheets():
     global GC
